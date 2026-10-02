@@ -1,0 +1,18 @@
+Models are downloaded automatically on first launch into this folder
+(source runs only; frozen deploys must ship models).
+
+Swap models:
+  inswapper_128_fp16.onnx  — fast (recommended on CUDA)
+  inswapper_128.onnx       — FP32 fallback
+
+Enhancer models:
+  gfpgan-1024.onnx
+  GPEN-BFR-512.onnx
+  GPEN-BFR-256.onnx
+
+Live captions (Whisper):
+  faster-whisper-small.en/ — OpenAI Whisper small.en via faster-whisper
+
+Manual download (Hugging Face):
+https://huggingface.co/hacksider/deep-live-cam/tree/main
+https://huggingface.co/Systran/faster-whisper-small.en

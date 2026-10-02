@@ -1,0 +1,128 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+sdist/
+wheels/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+tf_env/
+ENV/
+
+# Type checkers / test / lint caches
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+.pytype/
+.pyre/
+
+# --- IDE / editors ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.todo
+
+# --- OS ---
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Env / secrets ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# --- App runtime / user state ---
+switch_states.json
+session_notes.txt
+notes/
+browser_profile/
+faceswap/
+gfpgan/
+workflow/
+.tmp/
+temp/
+tmp/
+logs/
+*.log
+*.backup
+
+# Local Claude / agent scratch
+.claude/
+.cursor/
+
+# --- Installer helpers (keep run-*.bat and setup.bat tracked) ---
+install.bat
+install.sh
+
+# --- FFmpeg binaries (downloaded by setup.bat) ---
+ffmpeg/bin/
+
+# --- PyInstaller / deploy output ---
+build/
+dist/
+deploy/
+
+# --- Large / downloaded models (keep models/instructions.txt) ---
+models/*
+!models/instructions.txt
+*.onnx
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+*.h5
+*.pb
+*.tflite
+vosk-model-*/
+models/vosk-*/
+models/faster-whisper-*/
+models/models--*/
+
+# --- User-dropped media at repo root (keep media/ demo assets) ---
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
+/*.gif
+/*.bmp
+/*.tiff
+/*.mp4
+/*.mkv
+/*.avi
+/*.mov
+/*.webm
+/*.wav
+/*.mp3
+/*.flac
+!media/
